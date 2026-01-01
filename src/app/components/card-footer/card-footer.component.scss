@@ -1,0 +1,21 @@
+.footer-container {
+    display: flex;
+    padding: 0 20px;
+}
+
+.footer-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container img {
+    width: 32px;
+    height: 32px;
+}
+
+.footer-container p {
+    padding-left: 10px;
+    font-weight: 900;
+    font-size: 0.9rem;
+}
