@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './card-footer.component.scss'
 })
 export class CardFooterComponent {
-    profileImage: string = './image-avatar.webp';
+    profileImage: string = 'image-avatar.webp';
     profileName: string = 'Greg Hooper'
 }

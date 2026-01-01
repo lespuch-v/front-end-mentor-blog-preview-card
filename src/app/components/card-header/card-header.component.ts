@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
     styleUrl: './card-header.component.scss'
 })
 export class CardHeaderComponent {
-    imageBlogPostPath: string = './illustration-article.svg';
+    imageBlogPostPath: string = 'illustration-article.svg';
     datePublished = new Date();
     formattedDate = `Published ${this.datePublished.toLocaleDateString('en', {
         day: 'numeric', month: 'short', year: 'numeric'
